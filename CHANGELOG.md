@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.10.0](https://github.com/ronsilverentand/runner/compare/runner-v1.9.0...runner-v1.10.0) (2026-04-13)
+
+
+### Features
+
+* add Buildah and Crane to runner image ([#14](https://github.com/ronsilverentand/runner/issues/14)) ([51903aa](https://github.com/ronsilverentand/runner/commit/51903aa7e3ffcb1734dafd653c3d5c0f22c45dc3))
+* add Kaniko executor for daemonless Docker image builds ([#10](https://github.com/ronsilverentand/runner/issues/10)) ([62087d5](https://github.com/ronsilverentand/runner/commit/62087d566e757ba99cdd81098b45ac97448541c2))
+* add macOS runner provisioning scripts ([0bce048](https://github.com/ronsilverentand/runner/commit/0bce048d169e4acce0f8dd246223edc1f47683a6))
+* add PR test fixtures and fix mise trust config ([d982501](https://github.com/ronsilverentand/runner/commit/d98250131bbcb9c884acbbdfbefc93462bbe29a0))
+* extract runner image from devcontainers monorepo ([052e26b](https://github.com/ronsilverentand/runner/commit/052e26bffddd5fd0ad7d79d069fee496985199ac))
+* make image self-contained, remove base image dependency ([ddd06a6](https://github.com/ronsilverentand/runner/commit/ddd06a6df8fcab17de0c4040e814e5e4fd113497))
+* PR test fixtures, Dockerfile fixes, and macOS runner ([c7bd725](https://github.com/ronsilverentand/runner/commit/c7bd7256e94b46519a74de59f7645517bc35d968))
+
+
+### Bug Fixes
+
+* add permissions block to pr-validation workflow ([a0e5dcf](https://github.com/ronsilverentand/runner/commit/a0e5dcf1ec92e2b2efa267e1c0da797817219510))
+* add permissions block to pr-validation workflow ([bce70a3](https://github.com/ronsilverentand/runner/commit/bce70a3f28c86ec723283769ad1235e8f08a3488))
+* install node-gyp globally for native module compilation ([#7](https://github.com/ronsilverentand/runner/issues/7)) ([076f83e](https://github.com/ronsilverentand/runner/commit/076f83e3ab7d62e48f41f101878f747bbf79acb9))
+* pin Playwright version to prevent browser mismatch ([#12](https://github.com/ronsilverentand/runner/issues/12)) ([8e58a7a](https://github.com/ronsilverentand/runner/commit/8e58a7a665549f0830e2be66a567a16b2ea8f6bb))
+
 ## [1.9.0](https://github.com/seventwo-studio/runner/compare/runner-v1.8.1...runner-v1.9.0) (2026-04-11)
 
 
